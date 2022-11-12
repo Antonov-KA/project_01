@@ -25,3 +25,5 @@ r_seq = random.sample(seq, 3)
 print(f'''Три песни звучат {my_favorite_songs[r_seq[0]][1]+
       my_favorite_songs[r_seq[1]][1]+
       my_favorite_songs[r_seq[2]][1]} минут''')
+
+# Отлично
