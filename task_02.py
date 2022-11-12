@@ -26,3 +26,5 @@ print(f'''Итого размер населения {population[0][1]
       +population[2][1]
       +population[3][1]
       } человек''')
+
+#  Отлично
