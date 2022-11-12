@@ -19,3 +19,14 @@ for i in month:
 credit = round (abs(exp_tot - all_sal),2)
 print (f"Необходимо взять в долг {credit} рублей")
     
+# Решение 2
+salary, expenses = 10000, 12000
+
+i = expenses - salary
+m = 0
+debt = 0
+while m < 12:
+    mx = i * (1.03 ** m)
+    debt += mx
+    m += 1
+print(f'Необходимо взять в долг {round(debt, 2)} рублей')
